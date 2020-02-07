@@ -11,8 +11,8 @@ describe ('PersonalAge', () => {
     expect(person.ageOnMercury()).toEqual(75)
   });
 
-  test("should calculate years left to live on Mercury assuming predefined age and lifespan", () => {
-    expect(80).toEqual(258)
+  test("should calculate years left to live on Mercury assuming predefined age(18) and lifespan(80)", () => {
+    expect(person.remainingLifeOnMercury()).toEqual(258)
   });
 
 });
