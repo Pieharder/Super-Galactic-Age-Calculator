@@ -1,8 +1,13 @@
+import { PersonalAge } from "./../src/Galactic-Age-Calculator";
 
+describe ('PersonalAge', () => {
+  let person;
 
-describe ('Calculator', () => {
-  
+  beforeEach(() => {
+    person = new PersonalAge(18, 80)
+  });
+
   test("should calculate age in years on Mercury", () => {
-    expect(18).toEqual(74)
+    expect(person.ageOnMercury()).toEqual(75)
   });
 });
