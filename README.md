@@ -19,10 +19,14 @@ This project is was built with the purpose of calculating an inputted age based 
 
 | Behavior   |      Input      |  Output |
 |------------|:---------------:|--------:|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Calculate inputted age(in Eath years) based on solar year of Mercury | 18 | 74 |
+| From the inputted age(in Eath years) calculate the years left to based on the solar year of Mercury with an assumed life expectency of 80 years | 18 | 258 |
+| Calculate an inputted age(in Eath years) based on solar year of Venus | 18 | 29 |
+| From the inputted age(in Eath years) calculate the years left to based on the solar year of Venus with an assumed life expectency of 80 years | 18 | 101 |
+| Calculate an inputted age(in Eath years) based on solar year of Mars | 18 | 9 |
+From the inputted age(in Eath years) calculate the years left to based on the solar year of Mars with an assumed life expectency of 80 years | 18 | 33 |
+| Calculate an inputted age(in Eath years) based on solar year of Jupiter | 18 | 1 |
+| From the inputted age(in Eath years) calculate the years left to based on the solar year of Jupiter with an assumed life expectency of 80 years | 18 | 5 | 
 
 
 
