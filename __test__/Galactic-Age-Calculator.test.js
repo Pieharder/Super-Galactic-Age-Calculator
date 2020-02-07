@@ -51,6 +51,10 @@ describe ('PersonalAge', () => {
     expect(oldPerson.extraLifeOnMercury()).toEqual(83)
   });
 
+  test("should calculate years lived passed average lifespan on Venus assuming predefined age(100) and lifespan(80)", () => {
+    expect(oldPerson.extraLifeOnVenus()).toEqual(32)
+  });
+
 
 
 });
