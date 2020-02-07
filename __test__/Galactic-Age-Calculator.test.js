@@ -20,7 +20,7 @@ describe ('PersonalAge', () => {
   });
 
   test("should calculate years left to live on Venus assuming predefined age(18) and lifespan(80)", () => {
-    expect(person.remainingLifeOnVenus()).toEqual(101)
+    expect(person.remainingLifeOnVenus()).toEqual(100)
   });
 
 });
