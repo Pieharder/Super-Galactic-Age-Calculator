@@ -21,15 +21,15 @@ This project is was built with the purpose of calculating an inputted age based 
 |------------|:---------------:|--------:|
 | Calculate inputted age(in Earth years) based on solar year of Mercury | 18 | 74 |
 | From the inputted age(in Earth years) calculate the years left to based on the solar year of Mercury with an assumed life expectency of 80 years | 18 | 258 |
-| From the inputted age(in Earth years) calculate the years lived past life expectency(80) based on solar year of Mercury | 100 | 83|
 | Calculate an inputted age(in Earth years) based on solar year of Venus | 18 | 29 |
 | From the inputted age(in Earth years) calculate the years left to based on the solar year of Venus with an assumed life expectency of 80 years | 18 | 101 |
-|From the inputted age(in Earth years) calculate the years lived past life expectency(80) based on solar year of Venus | 100 | 32 |
 | Calculate an inputted age(in Earth years) based on solar year of Mars | 18 | 9 |
 From the inputted age(in Earth years) calculate the years left to based on the solar year of Mars with an assumed life expectency of 80 years | 18 | 33 |
-| From the inputted age(in Earth years) calculate the years lived past life expectency(80) based on solar year of Mars | 100 | 11 |
 | Calculate an inputted age(in Earth years) based on solar year of Jupiter | 18 | 1 |
 | From the inputted age(in Earth years) calculate the years left to based on the solar year of Jupiter with an assumed life expectency of 80 years | 18 | 5 |
+| From the inputted age(in Earth years) calculate the years lived past life expectency(80) based on solar year of Mercury | 100 | 83|
+|From the inputted age(in Earth years) calculate the years lived past life expectency(80) based on solar year of Venus | 100 | 32 |
+| From the inputted age(in Earth years) calculate the years lived past life expectency(80) based on solar year of Mars | 100 | 11 |
 | From the inputted age(in Earth years) calculate the years lived past life expectency(80) based on solar year of Jupiter | 100 | 2 |
 
 
