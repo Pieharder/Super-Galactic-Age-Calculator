@@ -60,7 +60,7 @@ describe ('PersonalAge', () => {
   });
 
   test("should calculate years lived passed average lifespan on Jupiter assuming predefined age(100) and lifespan(80)", () => {
-    expect(oldPerson.extraLifeOnJupiter()).toEqual(2)
+    expect(oldPerson.extraLifeOnJupiter()).toEqual(1)
   });
 
 });

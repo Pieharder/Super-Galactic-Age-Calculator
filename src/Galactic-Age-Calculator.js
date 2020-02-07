@@ -71,5 +71,11 @@ export class PersonalAge {
 
     return remainingYearsMars
   }
+    
+  extraLifeOnJupiter(ageLeft) {
+    let remainingYearsJupiter = (Math.floor((this.age / 11.86) - (this.lifeExpectency / 11.86)));
+
+    return remainingYearsJupiter
+  }
 
 }
