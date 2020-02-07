@@ -1,7 +1,7 @@
 import { PersonalAge } from "./../src/Galactic-Age-Calculator";
 
 describe ('PersonalAge', () => {
-  let person;
+  const person;
 
   beforeEach(() => {
     person = new PersonalAge(18, 80)
@@ -41,7 +41,7 @@ describe ('PersonalAge', () => {
 });
 
 describe ('PersonalAge', () => {
-  let oldPerson;
+  const oldPerson;
 
   beforeEach(() => {
     oldPerson = new PersonalAge(100, 80)
@@ -53,6 +53,10 @@ describe ('PersonalAge', () => {
 
   test("should calculate years lived passed average lifespan on Venus assuming predefined age(100) and lifespan(80)", () => {
     expect(oldPerson.extraLifeOnVenus()).toEqual(32)
+  });
+
+  test("should calculate years lived passed average lifespan on Mars assuming predefined age(100) and lifespan(80)", () => {
+    expect(oldPerson.extraLifeOnMars()).toEqual(11)
   });
 
 
