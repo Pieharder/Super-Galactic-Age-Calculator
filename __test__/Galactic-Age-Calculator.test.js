@@ -16,7 +16,7 @@ describe ('PersonalAge', () => {
   });
   
   test("should calculate age in years on Venus", () => {
-    expect(18).toEqual(29)
+    expect(person.ageOnVenus()).toEqual(29)
   });
 
 });

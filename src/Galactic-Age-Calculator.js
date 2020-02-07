@@ -17,4 +17,10 @@ export class PersonalAge {
 
     return remainingYearsMercury
   }
+
+  ageOnVenus(age) {
+    let ageInYearsVenus = (Math.floor(this.age / .62));
+    
+    return ageInYearsVenus
+  }
 }
