@@ -38,5 +38,19 @@ describe ('PersonalAge', () => {
   test("should calculate years left to live on Jupiter assuming predefined age(18) and lifespan(80)", () => {
     expect(person.remainingLifeOnJupiter()).toEqual(5)
   });
-    
+});
+
+describe ('PersonalAge', () => {
+  let oldPerson;
+
+  beforeEach(() => {
+    oldPerson = new PersonalAge(100, 80)
+  });
+
+  test("should calculate years lived passed average lifespan on Mercury assuming predefined age(100) and lifespan(80)", () => {
+    expect(oldPerson.extraLifeOnMercury()).toEqual(83)
+  });
+
+
+
 });
