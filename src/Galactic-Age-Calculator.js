@@ -77,5 +77,4 @@ export class PersonalAge {
 
     return remainingYearsJupiter
   }
-
 }
