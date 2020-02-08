@@ -74,7 +74,6 @@ export class PersonalAge {
     let extraYearsMars = (Math.floor((this.earthAge / marsDifferential) - (this.earthLifeExpectency / marsDifferential)));
 
     return extraYearsMars
-    console.log(rema)
   }
     
   extraLifeOnJupiter() {
