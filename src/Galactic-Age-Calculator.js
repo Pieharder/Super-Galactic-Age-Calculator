@@ -1,80 +1,85 @@
-export class PersonalAge {
-  
+const mercuryDifferential = 0.24;
+const venusDifferential = 0.62;
+const marsDifferential = 1.88; 
+const jupiterDifferential = 11.86;
 
-  constructor(age, lifeExpectency) {
-    this.age = age
-    this.lifeExpectency = lifeExpectency
+export class PersonalAge {
+
+  constructor(earthAge, earthLifeExpectency) {
+    this.earthAge = earthAge
+    this.earthLifeExpectency = earthLifeExpectency
   }
 
-  ageOnMercury(age) {
-    let ageInYearsMercury = (Math.floor(this.age / .24));
+  ageOnMercury() {
+    let ageInYearsMercury = (Math.floor(this.earthAge / mercuryDifferential));
     
     return ageInYearsMercury
   }
 
-  remainingLifeOnMercury(ageLeft) {
-    let remainingYearsMercury = (Math.floor((this.lifeExpectency / .24) - (this.age / .24)));
+  remainingLifeOnMercury() {
+    let remainingYearsMercury = (Math.floor((this.earthLifeExpectency / mercuryDifferential) - (this.earthAge / mercuryDifferential)));
 
     return remainingYearsMercury
   }
 
-  ageOnVenus(age) {
-    let ageInYearsVenus = (Math.floor(this.age / .62));
+  ageOnVenus() {
+    let ageInYearsVenus = (Math.floor(this.earthAge / venusDifferential));
     
     return ageInYearsVenus
   }
   
-  remainingLifeOnVenus(ageLeft) {
-    let remainingYearsVenus = (Math.floor((this.lifeExpectency / .62) - (this.age / .62)));
+  remainingLifeOnVenus() {
+    let remainingYearsVenus = (Math.floor((this.earthLifeExpectency / venusDifferential) - (this.earthAge / venusDifferential)));
 
     return remainingYearsVenus
   }
   
-  ageOnMars(age) {
-    let ageInYearsMars = (Math.floor(this.age / 1.88));
+  ageOnMars() {
+    let ageInYearsMars = (Math.floor(this.earthAge / marsDifferential));
     
     return ageInYearsMars
   }
     
-  remainingLifeOnMars(ageLeft) {
-    let remainingYearsMars = (Math.floor((this.lifeExpectency / 1.88) - (this.age / 1.88)));
+  remainingLifeOnMars() {
+    let remainingYearsMars = (Math.floor((this.earthLifeExpectency / marsDifferential) - (this.earthAge / marsDifferential)));
 
     return remainingYearsMars
   }
     
-  ageOnJupiter(age) {
-    let ageInYearsJupiter = (Math.floor(this.age / 11.86));
+  ageOnJupiter() {
+    let ageInYearsJupiter = (Math.floor(this.earthAge / jupiterDifferential));
     
     return ageInYearsJupiter
   }
       
-  remainingLifeOnJupiter(ageLeft) {
-    let remainingYearsJupiter = (Math.floor((this.lifeExpectency / 11.86) - (this.age / 11.86)));
+  remainingLifeOnJupiter() {
+    let remainingYearsJupiter = (Math.floor((this.earthLifeExpectency / jupiterDifferential) - (this.earthAge / jupiterDifferential)));
 
     return remainingYearsJupiter
   }
     
-  extraLifeOnMercury(ageLeft) {
-    let remainingYearsMercury = (Math.floor((this.age / .24) - (this.lifeExpectency / .24)));
+  extraLifeOnMercury() {
+    let extraYearsMercury = (Math.floor((this.earthAge / mercuryDifferential) - (this.earthLifeExpectency / mercuryDifferential)));
 
-    return remainingYearsMercury
+    return extraYearsMercury
   }
     
-  extraLifeOnVenus(ageLeft) {
-    let remainingYearsVenus = (Math.floor((this.age / .62) - (this.lifeExpectency / .62)));
+  extraLifeOnVenus() {
+    let extraYearsVenus = (Math.floor((this.earthAge / venusDifferential) - (this.earthLifeExpectency / venusDifferential)));
 
-    return remainingYearsVenus
+    return extraYearsVenus
   }
     
-  extraLifeOnMars(ageLeft) {
-    let remainingYearsMars = (Math.floor((this.age / 1.88) - (this.lifeExpectency / 1.88)));
+  extraLifeOnMars() {
+    let extraYearsMars = (Math.floor((this.earthAge / marsDifferential) - (this.lifeExpectency / marsDifferential)));
 
-    return remainingYearsMars
+    return extraYearsMars
+    console.log(rema)
   }
     
-  extraLifeOnJupiter(ageLeft) {
-    let remainingYearsJupiter = (Math.floor((this.age / 11.86) - (this.lifeExpectency / 11.86)));
+  extraLifeOnJupiter() {
+    let extraYearsJupiter = (Math.floor((this.earthAge / jupiterDifferential) - (this.earthLifeExpectency / jupiterDifferential)));
 
-    return remainingYearsJupiter
+    return extraYearsJupiter
   }
 }
